@@ -1,0 +1,115 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #d4e4f3;
+}
+
+p {
+	padding: 10px;
+	color: black;
+}
+
+h2 {
+	font-family: Georgia, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+section {
+	border:	1px solid black;
+	background-color: #ffea94;
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+	padding-bottom:10px;
+	margin-bottom: 10px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffde59;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Red Rose', cursive;
+  color: #0000;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  line-height: .75;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list{ 
+	background-color: #ffea94;
+}
+
+#nav-list a {
+	text-align: center;
+}
+
+#nav-list a p{
+	font-size:1.5em;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+ .navbar-default .navbar-collapse{
+ 	border:0;
+ }
+
+hr {
+  border-color: white;
+  margin: 0;
+}
+
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+
+#item{
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #6495ED;
+	font-color: white;
+	padding: 5px;
+}
+
+
+
